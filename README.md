@@ -1,8 +1,8 @@
-# ITSC-3155-Group-D
-For the Test-Driven Development Lab 3 - Part 4
+# pytest cache directory #
 
-## Team Members:
+This directory contains data from the pytest's cache plugin,
+which provides the `--lf` and `--ff` options, as well as the `cache` fixture.
 
-Scott Girard
+**Do not** commit this to version control.
 
-Matthew Keiller
+See [the docs](https://docs.pytest.org/en/stable/cache.html) for more information.
