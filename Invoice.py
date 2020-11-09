@@ -28,6 +28,7 @@ class Invoice:
         total_pure_price = self.totalImpurePrice(products)-self.totalDiscount(products)
         return total_pure_price
 
+# Creates a list of products as a string from the products dictionary
     def displayProducts(self, products):
         productString = ""
         for k, v in products.items():

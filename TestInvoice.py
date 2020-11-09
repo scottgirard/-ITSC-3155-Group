@@ -26,8 +26,10 @@ def test_CanCalculatetotalDiscount(invoice, products):
 def test_CanCalculateTotalPurePrice(invoice, products):
     assert invoice.totalPurePrice(products) == 69.38
 
+# Test for the ability to correctly add a product
 def test_CanAddProduct(invoice, product):
     assert invoice.addProduct(product['qnt'], product['unit_price'], product['discount']) == product
 
+# Test for the ability to correctly display a summary list of products
 def test_CanDisplayProducts(invoice, products):
     assert invoice.displayProducts(products) == 'Pen\t\t10\t\t3.75\t\t5\nNotebook\t\t5\t\t7.5\t\t10\n'
