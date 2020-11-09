@@ -26,4 +26,4 @@ Matthew Keiller
 ![screenshot_23800.png](https://uncc.nyc3.cdn.digitaloceanspaces.com/screenshot_23800.png)
 
 #### Main.py screenshot showing the running application:
-![screenshot_24600](https://uncc.nyc3.cdn.digitaloceanspaces.com/scregitenshot_24600.png)
+![screenshot_24600](https://uncc.nyc3.cdn.digitaloceanspaces.com/screenshot_24600.png)
